@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Aug 04 20:53:28 IST 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance a816c00e-0189-c125-8356-000001379cb0 
+on database directory memory:C:\Users\Friday\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\sprintboot-api-data\2bf8fdb8-a573-4172-b1fc-5da8bef57b48 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@22d8cfe0 
+Loaded from file:/C:/Users/Friday/.m2/repository/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.jar
+java.vendor=Eclipse Adoptium
+java.runtime.version=17.0.3+7
+user.dir=C:\Users\Friday\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\sprintboot-api-data
+os.name=Windows 11
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

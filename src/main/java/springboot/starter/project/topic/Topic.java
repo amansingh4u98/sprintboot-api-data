@@ -9,8 +9,9 @@ public class Topic {
 	private String id;
 	private String name;
 	private String description;
-	
-	public Topic() {}
+
+	public Topic() {
+	}
 
 	public String getId() {
 		return id;
@@ -42,6 +43,5 @@ public class Topic {
 		this.name = name;
 		this.description = description;
 	}
-	
-	
+
 }

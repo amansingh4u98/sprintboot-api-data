@@ -11,11 +11,12 @@ public class Course {
 	private String id;
 	private String name;
 	private String description;
-	
+
 	@ManyToOne
 	private Topic topic;
-	
-	public Course() {}
+
+	public Course() {
+	}
 
 	public String getId() {
 		return id;
@@ -56,6 +57,5 @@ public class Course {
 	public void setTopic(Topic topic) {
 		this.topic = topic;
 	}
-	
-	
+
 }

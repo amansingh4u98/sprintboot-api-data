@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class TopicService {
-	
+
 	@Autowired
 	private TopicRepository topicRepository;
 
@@ -20,24 +20,24 @@ public class TopicService {
 	 * Topic("Java", "Core Java", "Core Java Description"), new Topic("SQL", "SQL",
 	 * "SQL Description")));
 	 */
-	
-	public List<Topic> getAllTopics(){
-		//return topics;
+
+	public List<Topic> getAllTopics() {
+		// return topics;
 		List<Topic> topics = new ArrayList<>();
 
 		topicRepository.findAll().forEach(topics::add);
-		
+
 		return topics;
 	}
-	
+
 	public Topic getTopic(String id) {
-		//return topics.stream().filter(t -> t.getId().equals(id)).findFirst().get();
+		// return topics.stream().filter(t -> t.getId().equals(id)).findFirst().get();
 		return topicRepository.findById(id).get();
-		
+
 	}
 
 	public void addTopic(Topic topic) {
-		//topics.add(topic);
+		// topics.add(topic);
 		topicRepository.save(topic);
 	}
 
@@ -50,9 +50,8 @@ public class TopicService {
 	}
 
 	public void deleteTopic(String id) {
-			//topics.removeIf(t -> t.getId().equals(id));
-			topicRepository.deleteById(id);
-		}
-	
+		// topics.removeIf(t -> t.getId().equals(id));
+		topicRepository.deleteById(id);
 	}
 
+}
